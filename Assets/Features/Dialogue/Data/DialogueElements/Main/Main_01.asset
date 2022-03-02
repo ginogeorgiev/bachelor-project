@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0461f4bdab8318547b789e5917df3aa9, type: 3}
+  m_Name: Main_01
+  m_EditorClassIdentifier: 
+  forSendNextElement:
+  - {fileID: 11400000, guid: a08b747f03571034eb5b2bfb468d0d6d, type: 2}
+  dialogueTexts:
+  - {fileID: 4136650218740290786, guid: 0217791e25ed9474b86a8697ef85275e, type: 3}
+  - {fileID: 4136650218740290786, guid: 949d140edefb4e44ea9645354f81ebde, type: 3}
+  - {fileID: 4136650218740290786, guid: 6c8b3b436860a7a43b8062e27b215b3d, type: 3}
+  - {fileID: 4136650218740290786, guid: f402caa0904e5f949ba04ad0c522f685, type: 3}
+  - {fileID: 4136650218740290786, guid: b370d3852c3270f4581bd8f951f02578, type: 3}
+  - {fileID: 4136650218740290786, guid: 63047625543dc0a43a3f96abaf112fad, type: 3}
+  nextElement: {fileID: 11400000, guid: d17cd9ce61bdfd84c92c9d5b84974836, type: 2}
+  onCompletion:
+  - {fileID: 11400000, guid: a08b747f03571034eb5b2bfb468d0d6d, type: 2}
+  isInstantly: 0

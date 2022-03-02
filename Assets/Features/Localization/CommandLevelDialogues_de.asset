@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CommandLevelDialogues_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 4ee40d87dbc900942b02b32762a3f43d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 31969558528
+    m_Localized: Hier siehst du eine Schachfeld und eine Dame. Du kannst sie mithilfe
+      der Buttons unten rechts Steuern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74319446016
+    m_Localized: Experimentiere ein wenig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 457523642368
+    m_Localized: 'Wie du vielleicht bemerkt hast wird die Dame mittels Commands gesteuert.
+
+      Was
+      glaubst du wie viele verschiedene konkrete Commands gibt es, um sie zu steuern.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1114343260160
+    m_Localized: Das ist nicht ganz richtig. Vielleicht guckst du noch mal genauer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1117409296384
+    m_Localized: "1 ist richtig. Jeder Button schickt ein konkreten MoveCommand,
+      und nur die Parameter sind anders gew\xE4hlt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20354488123392
+    m_Localized: "Das Command Pattern geh\xF6rt zur Gruppe der Verhaltensmuster.
+      Es bietet die M\xF6glichkeit, Befehle in ein Objekt zu kapseln und diese somit
+      in Warteschlangen einzureihen oder Befehle r\xFCckg\xE4ngig zu machen oder
+      auch wieder herzustellen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21119617253376
+    m_Localized: "Meist dient das einer zeitlichen Trennung von Erzeugung und Aufruf
+      eines solchen Befehls. Es dient aber auch einer logischen Trennung, da der
+      Aufrufer keine Informationen \xFCber den Inhalt des eigentlichen Befehls ben\xF6tigt."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21936155967488
+    m_Localized: 'Ah, wie ich sehe hast du nun die Brille gefunden.
+
+      Dir werden
+      jetzt rechts alle wichtigen Informationen angezeigt.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22113516306432
+    m_Localized: "Du kannst nun sehen, wann ein ein Befehl in den Befehls-Stapel
+      gelegt wird oder durch ein Undo vom Befehls-Stapel in den Undo-Stapel. Mit
+      Redo wird ein Befehl aus dem Undo-Stapel zur\xFCck in den Befehls-Stapel gelegt.
+      Wenn ein neuer Befehl ausgef\xFCrt wird, wird der Undo-Stapel geleert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23266446589952
+    m_Localized: 'Ein Command Interface muss also nur zwei Methoden vorgeben: Execute
+      und Undo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22868180647936
+    m_Localized: Das wars dann soweit. Ich hoffe ich konnte dir einen Eindruck vom
+      Command Pattern geben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29308949676032
+    m_Localized: "Probiere noch ein wenige weiter rum, wenn du Lust hast oder gehe
+      zur\xFCck."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

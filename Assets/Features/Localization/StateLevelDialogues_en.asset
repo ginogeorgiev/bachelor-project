@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StateLevelDialogues_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2089f28bc690c4043be27eeb53d1a4b3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7034421248
+    m_Localized: 'As you can see, we have a vending machine here.
+
+      Here you
+      have 100 coins.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24713412608
+    m_Localized: Experiment a little.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27242577920
+    m_Localized: The machine is state-controlled. How many different states do you
+      think it has?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30665129984
+    m_Localized: That's not quite right. Maybe you should take a closer look at it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35207561216
+    m_Localized: 4 is correct.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43315150848
+    m_Localized: Try a few more if you feel like it or go back.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47291351040
+    m_Localized: 'Ah, I see you have now found the glasses.
+
+      All the important
+      information is now displayed on the right.
+
+      You can see when a state
+      is entered or exited.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20897759543296
+    m_Localized: That's it so far. I hope I could give you an impression of Statemachines.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21467392163840
+    m_Localized: By the way, my animations are also state-driven.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21732044357632
+    m_Localized: The State Pattern belongs to the group of behavioral patterns. It
+      offers the possibility to change the state or behaviour of an object at runtime
+      and thus appear to the outside as if it had changed its class.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

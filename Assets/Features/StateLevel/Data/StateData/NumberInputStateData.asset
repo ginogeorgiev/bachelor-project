@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a27655ad17804a33a9e533de824ad1b5, type: 3}
+  m_Name: NumberInputStateData
+  m_EditorClassIdentifier: 
+  isStateActive: {fileID: 11400000, guid: ee53b6a42a566fd4598efc880d7bf38b, type: 2}
+  enterStateText: {fileID: 4808816338676917354, guid: 5122173cb0bc74d4a8279b519c0222c2, type: 3}
+  exitStateText: {fileID: 4808816338676917354, guid: bf089d0b1f842504bab01009942fadd6, type: 3}
+  messageText: {fileID: 11400000, guid: 0bee623a29a92224f9fed1f51cf1be75, type: 2}
+  onEnterEventEvent: {fileID: 11400000, guid: 4adebfef177d945458a7040b795c901b, type: 2}
+  onExitEventEvent: {fileID: 11400000, guid: c3c9ce971b0695a4d853a52bbf148f66, type: 2}
+  playerMoneyAmount: {fileID: 11400000, guid: 82da707691a9f9542a14ae3c901c5e7f, type: 2}
+  inMachineMoneyAmount: {fileID: 11400000, guid: 961497964c527f941a5301dd4650efff, type: 2}
+  moneyChangeAmount: {fileID: 11400000, guid: e2c32a00ae28f554abd4a5e610caf01b, type: 2}
+  itemAmount: {fileID: 11400000, guid: df6a3a174573bf04eab789115742a76b, type: 2}
+  spawnCoin: {fileID: 11400000, guid: 4079da9a336cc7447a2faaa74653254c, type: 2}
+  spawnItem: {fileID: 11400000, guid: 991d75bee4c21864295e2a312bbc5e4e, type: 2}

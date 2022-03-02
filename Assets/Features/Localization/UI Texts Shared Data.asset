@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: UI Texts Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: UI Texts
+  m_TableCollectionNameGuidString: 418b5ef21555fbb4ebd4f2edcdaf246c
+  m_Entries:
+  - m_Id: 156292923392
+    m_Key: Command_Canvas_CommandStack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5405229498368
+    m_Key: Command_Canvas_UndoButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5624046338048
+    m_Key: Command_Canvas_RedoButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5655369400320
+    m_Key: Command_Canvas_UpButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5692841312256
+    m_Key: Command_Canvas_DownButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5711841509376
+    m_Key: Command_Canvas_LeftButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5738806689792
+    m_Key: Command_Canvas_RightButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335169249132544
+    m_Key: Command_Canvas_UndoStack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397025630666752
+    m_Key: Command_Canvas_DownLeftButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397032026980352
+    m_Key: Command_Canvas_DownRightButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397033578872832
+    m_Key: Command_Canvas_UpLeftButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397038104526848
+    m_Key: Command_Canvas_UpRightButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237259947360256
+    m_Key: State_Canvas_EnterIdleState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237263206334464
+    m_Key: State_Canvas_ExitIdleState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237265081188352
+    m_Key: State_Canvas_EnterWaitForMoneyInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237269837529088
+    m_Key: State_Canvas_ExitWaitForMoneyInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237273016811520
+    m_Key: State_Canvas_EnterWaitForNumberInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237273813729280
+    m_Key: State_Canvas_ExitWaitForNumberInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237277794123776
+    m_Key: State_Canvas_EnterDispenseState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237278456823808
+    m_Key: State_Canvas_ExitDispenseState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6239948265537536
+    m_Key: State_Canvas_StateStack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692668386197504
+    m_Key: Main_Titel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7953664652656640
+    m_Key: Continue_Button
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1644166495412

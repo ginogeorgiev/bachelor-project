@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0461f4bdab8318547b789e5917df3aa9, type: 3}
+  m_Name: Main_01_Repeat
+  m_EditorClassIdentifier: 
+  forSendNextElement:
+  - {fileID: 11400000, guid: 6b8fb657c77f6f348bc79cd5df026a7b, type: 2}
+  - {fileID: 11400000, guid: 348b8ed3414ba244f8e201b7d26b0977, type: 2}
+  dialogueTexts:
+  - {fileID: 4136650218740290786, guid: 63047625543dc0a43a3f96abaf112fad, type: 3}
+  nextElement: {fileID: 11400000, guid: 04ae810222aec274ea316e65861ddc0d, type: 2}
+  onCompletion: []
+  isInstantly: 0

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: StateLevelDialogues_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 2089f28bc690c4043be27eeb53d1a4b3, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 7034421248
+    m_Localized: "Wie du siehst haben wir hier einen Automaten.\r\nHier hast du 100
+      M\xFCnzen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24713412608
+    m_Localized: Experimentiere ein wenig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27242577920
+    m_Localized: "Der Automat ist Zustandsgesteuert. Was glaubst du wie viele verschiedene
+      Zust\xE4nde er hat?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30665129984
+    m_Localized: Das ist nicht ganz richtig. vlt guckst du ihn dir noch mal genauer
+      an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35207561216
+    m_Localized: 4 ist richtig.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43315150848
+    m_Localized: "Probiere noch ein wenige weiter rum, wenn du Lust hast oder gehe
+      zur\xFCck."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47291351040
+    m_Localized: 'Ah, wie ich sehe hast du nun die Brille gefunden.
+
+      Dir werden
+      jetzt rechts alle wichtigen Informationen angezeigt.
+
+      Du kannst nun sehen,
+      wenn ein Zustand betreten oder verlassen wird.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20897759543296
+    m_Localized: Das wars dann soweit. Ich hoffe ich konnte dir einen Eindruck von
+      Statemachines geben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21467392163840
+    m_Localized: "Meine Animationen sind \xFCbrigens auch zustandsgesteuert."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21732044357632
+    m_Localized: "Das State Pattern geh\xF6rt zu der Gruppe der Verhaltensmuster.
+      Es bietet die M\xF6glichkeit den Zustand oder das Verhalten eines Objektes
+      zur Laufzeit zu \xE4ndern und damit nach au\xDFen so zu wirken, als h\xE4tte
+      es seine Klasse gewechselt."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

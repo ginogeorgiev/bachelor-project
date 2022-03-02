@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MainMenuDialogues_de
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: 5a0419fa23fe36142bf23211789d0df1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6652739584
+    m_Localized: Hallo, ich bin Dr. Pattern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8934440960
+    m_Localized: Willkommen in meinem bescheidenen Labor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12105334784
+    m_Localized: "In diesem Spiel m\xF6chte ich versuchen dir etwas \xFCber Software-Design-Patterns
+      beizubringen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410446336
+    m_Localized: "Benutze die Maus um Objekte zu klicken.\nEine blaue Umrandung deutet
+      daraufhin, dass es ein Level ist. Die gelbe Umrandung bei mir zeigt, dass ich
+      n\xFCtzliche Hinweise f\xFCr dich habe."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18199658496
+    m_Localized: 'Oben rechts kannst du die Sprache einstellen oder das Spiel verlassen.
+      Vorsicht: Das Spiel speichert nicht deinen Fortschritt, wenn du es beendest.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119022338048
+    m_Localized: "W\xE4hle nun eins der Level und ich werde dir dort Weiteres erkl\xE4ren.
+      Wenn du schon in einem Level warst, geh in das Andere."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574041407488
+    m_Localized: "Sehr sch\xF6n du hast nun beide Level gespielt. Um mehr Informtion
+      zu erfahren kannst du nun die Brille vom Tisch nehmen und wieder in die Level
+      gehen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17734042173440
+    m_Localized: Nimm die Brille vom Tisch links.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17931363205120
+    m_Localized: "Das wars, du hast alle Level durchgespielt. Ich wei\xDF es ist
+      nicht viel aber immerhin ein Anfang."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18187815534592
+    m_Localized: Mein Entwickler hat jetzt wohl noch ein paar Fragen an dich. Und
+      wenn nicht findest du alles weitere im Repository.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18519337517056
+    m_Localized: "Danke f\xFCrs Spielen und bis zum n\xE4chsten mal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43769337004032
+    m_Localized: Gehe nun wieder in die Level. Wenn du schon in einem Level warst,
+      geh in das Andere.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

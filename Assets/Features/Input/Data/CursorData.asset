@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77467fed6414d658e7948da460c3176, type: 3}
+  m_Name: CursorData
+  m_EditorClassIdentifier: 
+  changeCursorEvent: {fileID: 11400000, guid: a93a3852b4854bc40a00a8ca9ad3f1af, type: 2}
+  normal: {fileID: 2800000, guid: 254e3af598f354b49bb33e2e16e92f14, type: 3}
+  hover: {fileID: 2800000, guid: 1961ea661fa0c404eaba77c7bfcb2f66, type: 3}
+  clicked: {fileID: 2800000, guid: b335917b3be5ca54398101f1dfd20e31, type: 3}

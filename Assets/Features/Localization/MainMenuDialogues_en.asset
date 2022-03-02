@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MainMenuDialogues_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5a0419fa23fe36142bf23211789d0df1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 6652739584
+    m_Localized: Hello, I am Dr. Pattern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8934440960
+    m_Localized: Welcome to my humble laboratory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12105334784
+    m_Localized: Today you will hopefully learn somthing about Software Design Pattern.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15410446336
+    m_Localized: 'Use the mouse to click objects.
+
+      The blue outline indicates
+      that it is a level. The yellow outline around me indicates that I have usfull
+      hints for you.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18199658496
+    m_Localized: 'At the top right you can set the language or exit the game. Caution:
+      The game does not save your progress when you exit it.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119022338048
+    m_Localized: Now choose one of the levels and I will explain more to you there.
+      If you have already been to one level, go to the other one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 574041407488
+    m_Localized: You have now played both levels. To find out more information you
+      can now take the glasses off the table and go back to the levels.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17734042173440
+    m_Localized: Take the glasses from the table on the left.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17931363205120
+    m_Localized: That's it, you've played through all the levels. I know it's not
+      much, but at least it's a start.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18187815534592
+    m_Localized: I think my developer has a few questions for you now. And if not,
+      you can find everything else in the repository.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18519337517056
+    m_Localized: Thanks for playing and see you next time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43769337004032
+    m_Localized: 'Now go back into the levels.
+
+      If you have already been to
+      one level, go to the other one.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0461f4bdab8318547b789e5917df3aa9, type: 3}
+  m_Name: State_04
+  m_EditorClassIdentifier: 
+  forSendNextElement:
+  - {fileID: 11400000, guid: 061922028f09ce648967e70a65aef62f, type: 2}
+  dialogueTexts:
+  - {fileID: 4136650218740290786, guid: 85c85d64ef461cb4484599c1f9c1d3f1, type: 3}
+  - {fileID: 4136650218740290786, guid: 47922edac5e39c44fae0d40d12fb874a, type: 3}
+  - {fileID: 4136650218740290786, guid: 275c9da03f048fb45a98049f50050f44, type: 3}
+  - {fileID: 4136650218740290786, guid: d5202522c55fd5b4cb597f7ba33cb9a3, type: 3}
+  nextElement: {fileID: 11400000, guid: 76186cfd87fe4d344b69280852e1d608, type: 2}
+  onCompletion:
+  - {fileID: 11400000, guid: 061922028f09ce648967e70a65aef62f, type: 2}
+  isInstantly: 0

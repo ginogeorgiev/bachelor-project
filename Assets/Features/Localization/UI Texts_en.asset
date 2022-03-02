@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: UI Texts_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 418b5ef21555fbb4ebd4f2edcdaf246c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 156292923392
+    m_Localized: 'Commands:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5405229498368
+    m_Localized: Undo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5624046338048
+    m_Localized: Redo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5655369400320
+    m_Localized: Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5738806689792
+    m_Localized: Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5711841509376
+    m_Localized: Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5692841312256
+    m_Localized: Down
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335169249132544
+    m_Localized: 'Undos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397038104526848
+    m_Localized: Up Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397033578872832
+    m_Localized: Up Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397025630666752
+    m_Localized: Down Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4397032026980352
+    m_Localized: Down Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237259947360256
+    m_Localized: Enter IdleState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237263206334464
+    m_Localized: Exit IdleState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237265081188352
+    m_Localized: Enter MoneyInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237269837529088
+    m_Localized: Exit MoneyInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237273016811520
+    m_Localized: Enter NumberInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237273813729280
+    m_Localized: Exit NumberInputState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237277794123776
+    m_Localized: Enter DispenseState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6237278456823808
+    m_Localized: Exit DispenseState
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6239948265537536
+    m_Localized: 'States:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7692668386197504
+    m_Localized: 'Dr. Pattern''s
+
+      Laboratory'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7953664652656640
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

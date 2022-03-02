@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52a69f688c74ef3bf82c952965701bf, type: 3}
+  m_Name: CommandData
+  m_EditorClassIdentifier: 
+  upTextPrefab: {fileID: 4361040907738322799, guid: 2d812a191940dab4b8030288d38bb5b1, type: 3}
+  downTextPrefab: {fileID: 4808816338676917354, guid: aa2fef26d67ddb44ea47c0d7ff7f5235, type: 3}
+  leftTextPrefab: {fileID: 2243185850890381423, guid: f0e962add104deb4c97eff896471ce2f, type: 3}
+  rightTextPrefab: {fileID: 3449451492623776654, guid: 8351404c3065f0649ab729fd00e5a8df, type: 3}
+  upLeftTextPrefab: {fileID: 4808816338676917354, guid: acd6ab584fdc48848a7376d9b703a4de, type: 3}
+  downLeftTextPrefab: {fileID: 4808816338676917354, guid: dc214681147e2984da6fdd005d0a7857, type: 3}
+  upRightTextPrefab: {fileID: 4808816338676917354, guid: 0d4dd44928890bd4a8170d21eb3aa5dc, type: 3}
+  downRightTextPrefab: {fileID: 4808816338676917354, guid: 5218c447b26d2a842928246ddf0d6612, type: 3}
