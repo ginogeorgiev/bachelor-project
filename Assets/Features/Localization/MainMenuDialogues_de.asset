@@ -32,13 +32,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 15410446336
-    m_Localized: "Benutze die Maus um Objekte zu klicken.\nEine blaue Umrandung deutet
-      daraufhin, dass es ein Level ist. Die gelbe Umrandung bei mir zeigt, dass ich
-      n\xFCtzliche Hinweise f\xFCr dich habe."
+    m_Localized: "Benutze die Maus um auf Objekte zu klicken.\nEine blaue Umrandung
+      deutet daraufhin, dass es ein Level ist. Die gelbe Umrandung bei mir zeigt,
+      dass ich n\xFCtzliche Hinweise f\xFCr dich habe."
     m_Metadata:
       m_Items: []
   - m_Id: 18199658496
-    m_Localized: 'Oben rechts kannst du die Sprache einstellen oder das Spiel verlassen.
+    m_Localized: 'Oben links kannst du die Sprache einstellen oder das Spiel verlassen.
       Vorsicht: Das Spiel speichert nicht deinen Fortschritt, wenn du es beendest.'
     m_Metadata:
       m_Items: []
@@ -48,8 +48,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 574041407488
-    m_Localized: "Sehr sch\xF6n du hast nun beide Level gespielt. Um mehr Informtion
-      zu erfahren kannst du nun die Brille vom Tisch nehmen und wieder in die Level
+    m_Localized: "Sehr sch\xF6n du hast nun beide Level gespielt. Um mehr Informationen
+      zu erhalten kannst du nun die Brille vom Tisch nehmen und wieder in die Level
       gehen."
     m_Metadata:
       m_Items: []

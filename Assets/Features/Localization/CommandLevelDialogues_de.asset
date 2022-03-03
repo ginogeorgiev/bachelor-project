@@ -39,13 +39,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1117409296384
-    m_Localized: "1 ist richtig. Jeder Button schickt ein konkreten MoveCommand,
+    m_Localized: "1 ist richtig. Jeder Button schickt einen konkreten MoveCommand,
       und nur die Parameter sind anders gew\xE4hlt."
     m_Metadata:
       m_Items: []
   - m_Id: 20354488123392
     m_Localized: "Das Command Pattern geh\xF6rt zur Gruppe der Verhaltensmuster.
-      Es bietet die M\xF6glichkeit, Befehle in ein Objekt zu kapseln und diese somit
+      Es bietet die M\xF6glichkeit Befehle in ein Objekt zu kapseln und diese somit
       in Warteschlangen einzureihen oder Befehle r\xFCckg\xE4ngig zu machen oder
       auch wieder herzustellen."
     m_Metadata:
@@ -57,10 +57,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 21936155967488
-    m_Localized: 'Ah, wie ich sehe hast du nun die Brille gefunden.
-
-      Dir werden
-      jetzt rechts alle wichtigen Informationen angezeigt.'
+    m_Localized: Ah, wie ich sehe hast du nun die Brille gefunden. Dir werden jetzt
+      rechts alle wichtigen Informationen angezeigt.
     m_Metadata:
       m_Items: []
   - m_Id: 22113516306432

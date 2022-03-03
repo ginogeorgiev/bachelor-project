@@ -52,7 +52,7 @@ namespace Features.StateLevel.Logic
                 }
                 else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
                 {
-                    Data.MessageText.Set("Process canceled!\nBitte entnehmen Sie ihr Geld");
+                    Data.MessageText.Set("Process canceled!\nPlease take your change.");
                 }
             }
         }

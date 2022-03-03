@@ -39,7 +39,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 18199658496
-    m_Localized: 'At the top right you can set the language or exit the game. Caution:
+    m_Localized: 'At the top left you can set the language or exit the game. Caution:
       The game does not save your progress when you exit it.
 
 '
