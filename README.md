@@ -26,4 +26,4 @@ The following questions were asked after testers played the game:
 
 - to [Abdul](https://github.com/abdool-bot) for creating Dr.Patterns Idle- and Talking-Animations
 
-- to all the testers/players and their feedback
+- to all testers and players for playing, testing and giving feedback
