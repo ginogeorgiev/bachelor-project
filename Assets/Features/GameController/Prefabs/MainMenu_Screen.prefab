@@ -197,8 +197,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 190, y: -23}
-  m_SizeDelta: {x: 11, y: 141}
+  m_AnchoredPosition: {x: 190, y: 0.723}
+  m_SizeDelta: {x: 11, y: 188.447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &852908357391436506
 CanvasRenderer:
@@ -687,10 +687,9 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 2633514112510725918}
   onClickEvent: {fileID: 11400000, guid: 92fa505e596e76342b4d9a88fe8c13bc, type: 2}
-  canCollectGlasses: {fileID: 0}
   dialogueQuestionEvent: {fileID: 0}
   dialogueElement: {fileID: 0}
 --- !u!222 &3116870815090525307
@@ -781,7 +780,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 7107584132986851348}
   doTransitionEvent: {fileID: 11400000, guid: e2f9d08c41d5dd44fb1b0261e88e9956, type: 2}
   isIdleState: {fileID: 0}
@@ -1093,10 +1092,9 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
-  glassesAreCollected: {fileID: 11400000, guid: ce04be53aeff3bf40ad230c7bea50b67, type: 2}
+  canCollectGlasses: {fileID: 11400000, guid: ce04be53aeff3bf40ad230c7bea50b67, type: 2}
   hoverEffect: {fileID: 6242550626934821204}
   onClickEvent: {fileID: 11400000, guid: 4a00507537adac049abd5016d91dce72, type: 2}
-  canCollectGlasses: {fileID: 11400000, guid: ce04be53aeff3bf40ad230c7bea50b67, type: 2}
   dialogueQuestionEvent: {fileID: 0}
   dialogueElement: {fileID: 0}
 --- !u!114 &4810648752018488399
@@ -1325,7 +1323,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 7856912378818810375}
   doTransitionEvent: {fileID: 11400000, guid: e2f9d08c41d5dd44fb1b0261e88e9956, type: 2}
   isIdleState: {fileID: 0}
@@ -2024,10 +2022,9 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 7623001535132274023}
   onClickEvent: {fileID: 11400000, guid: b2fd70c994868ba408f2fe01a633a136, type: 2}
-  canCollectGlasses: {fileID: 0}
   dialogueQuestionEvent: {fileID: 0}
   dialogueElement: {fileID: 0}
 --- !u!222 &4812535740173437535
@@ -2121,10 +2118,9 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 93915107291814553}
   onClickEvent: {fileID: 11400000, guid: cd57b8916214ce043ba6b2cc59b7f4ab, type: 2}
-  canCollectGlasses: {fileID: 0}
   dialogueQuestionEvent: {fileID: 0}
   dialogueElement: {fileID: 0}
 --- !u!222 &5924465624968497977
@@ -2202,10 +2198,10 @@ RectTransform:
   m_Father: {fileID: 3965908767710131574}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -550, y: 400}
-  m_SizeDelta: {x: -1254, y: -915}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -550, y: -150.417}
+  m_SizeDelta: {x: 666, y: 185.834}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3453923435978773264
 CanvasRenderer:
@@ -2537,7 +2533,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
-  glassesAreCollected: {fileID: 0}
+  canCollectGlasses: {fileID: 0}
   hoverEffect: {fileID: 1705697828844277010}
   onClickEvent: {fileID: 11400000, guid: bf69cccf90e635f4dbbda0ff112003f6, type: 2}
   titleButtons: {fileID: 2808982426678530797}
@@ -2843,8 +2839,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -190, y: -23}
-  m_SizeDelta: {x: 11, y: 141}
+  m_AnchoredPosition: {x: -190, y: 0.723}
+  m_SizeDelta: {x: 11, y: 188.447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1583575320268096342
 CanvasRenderer:
@@ -2891,6 +2887,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5056774920001733723}
     m_Modifications:
+    - target: {fileID: 1563975191337088125, guid: eb23044c867ecf748b251b4ef16866d3, type: 3}
+      propertyPath: m_text
+      value: 'Dr. Patterns
+
+        Labor'
+      objectReference: {fileID: 0}
     - target: {fileID: 4205342855572156036, guid: eb23044c867ecf748b251b4ef16866d3, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
