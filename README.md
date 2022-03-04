@@ -22,6 +22,8 @@ The following questions were asked after testers played the game:
  - or add the project to the Unity Hub and launch it from there
 
 ## Special Thanks
-Thanks to [Pauline](https://github.com/proehr) for helping me with the Mac-Build
+- to [Pauline](https://github.com/proehr) for letting me use her automated build tools for the mac-build
 
-And thanks to [Abdul](https://github.com/abdool-bot) for creating Dr.Patterns Idle- and Talking-Animations
+- to [Abdul](https://github.com/abdool-bot) for creating Dr.Patterns Idle- and Talking-Animations
+
+- to all the testers/players and their feedback
