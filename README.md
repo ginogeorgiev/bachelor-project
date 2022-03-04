@@ -21,7 +21,7 @@ The following questions were asked after testers played the game:
  - open any scene from the scene folder
  - or add the project to the Unity Hub and launch it from there
 
-### Special Thanks
+## Special Thanks
 Thanks to [Pauline](https://github.com/proehr) for helping me with the Mac-Build
 
 And thanks to [Abdul](https://github.com/abdool-bot) for creating Dr.Patterns Idle- and Talking-Animations
