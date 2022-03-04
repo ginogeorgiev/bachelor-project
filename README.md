@@ -14,6 +14,9 @@ The following questions were asked after testers played the game:
 6. "What did you like best about the game?"
 
 ## How to install the project
+- go to [Releases](https://github.com/ginogeorgiev/bachelor-project/releases) and follow the instructions
+
+## How to install the project
 - install [Unity](https://unity3d.com/get-unity/download/archive) 2020.3.21f1
 - use [Visual Studio Code](https://code.visualstudio.com/docs/other/unity) or [Rider](https://www.jetbrains.com/lp/dotnet-unity/) as IDE
 
