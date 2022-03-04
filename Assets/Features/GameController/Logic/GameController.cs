@@ -42,11 +42,11 @@ namespace Features.GameController.Logic
                 gameEvent.Raise();
             }
             yield return new WaitForSeconds(transitionData.WaitTimeBetweenFades);
+            transitionIsRunning.SetFalse();
             
             cursorData.ChangeToCursor(cursorData.Normal);
             transitionData.OnEnd.Raise();
             yield return new WaitForSeconds(transitionData.FadeOutTime);
-            transitionIsRunning.SetFalse();
         }
 
         public void OnChangeLanguageToEng()

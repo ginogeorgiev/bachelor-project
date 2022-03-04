@@ -2,7 +2,6 @@
 using Features.Input.Logic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 
 namespace Features.GameController.Logic
 {
@@ -10,12 +9,14 @@ namespace Features.GameController.Logic
     {
         [SerializeField] protected CursorData cursorData;
         
-        [FormerlySerializedAs("dialogIsActive")]
         [Header("If filled, this button does not work as long as a dialog is open")]
         [SerializeField] protected BoolVariable dialogueIsActive;
         
         [Header("Prevents Buttons from working when a transition is running")]
         [SerializeField] protected BoolVariable transitionIsRunning;
+        
+        [Header("Only for Glasses")]
+        [SerializeField] protected BoolVariable canCollectGlasses;
         
         [Header("Object related")]
         [SerializeField] protected GameObject hoverEffect;
@@ -37,6 +38,8 @@ namespace Features.GameController.Logic
             if (transitionIsRunning != null) if (transitionIsRunning.Get()) return;
             if (dialogueIsActive != null) if (dialogueIsActive.Get()) return;
             
+            if (canCollectGlasses != null) if (!canCollectGlasses.Get()) return;
+            
             if (cursorData.Hover != null)
             {
                 cursorData.ChangeToCursor(cursorData.Hover);
@@ -53,6 +56,8 @@ namespace Features.GameController.Logic
             if (transitionIsRunning != null) if (transitionIsRunning.Get()) return;
             if (dialogueIsActive != null) if (dialogueIsActive.Get()) return;
             
+            if (canCollectGlasses != null) if (!canCollectGlasses.Get()) return;
+            
             cursorData.ChangeToCursor(cursorData.Normal);
             
             if (hoverEffect == null) return;
@@ -66,6 +71,8 @@ namespace Features.GameController.Logic
             if (transitionIsRunning != null) if (transitionIsRunning.Get()) return;
             if (dialogueIsActive != null) if (dialogueIsActive.Get()) return;
             
+            if (canCollectGlasses != null) if (!canCollectGlasses.Get()) return;
+            
             cursorData.ChangeToCursor(cursorData.Clicked);
         }
 
@@ -73,6 +80,8 @@ namespace Features.GameController.Logic
         {
             if (transitionIsRunning != null) if (transitionIsRunning.Get()) return;
             if (dialogueIsActive != null) if (dialogueIsActive.Get()) return;
+            
+            if (canCollectGlasses != null) if (!canCollectGlasses.Get()) return;
             
             if (!isHover) return;
             

@@ -687,6 +687,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 2633514112510725918}
   onClickEvent: {fileID: 11400000, guid: 92fa505e596e76342b4d9a88fe8c13bc, type: 2}
   canCollectGlasses: {fileID: 0}
@@ -761,6 +762,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5289994981410342295}
+  - {fileID: 8564258972514176621}
   m_Father: {fileID: 8137515841889582360}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -779,6 +781,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 7107584132986851348}
   doTransitionEvent: {fileID: 11400000, guid: e2f9d08c41d5dd44fb1b0261e88e9956, type: 2}
   isIdleState: {fileID: 0}
@@ -1090,6 +1093,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
+  glassesAreCollected: {fileID: 11400000, guid: ce04be53aeff3bf40ad230c7bea50b67, type: 2}
   hoverEffect: {fileID: 6242550626934821204}
   onClickEvent: {fileID: 11400000, guid: 4a00507537adac049abd5016d91dce72, type: 2}
   canCollectGlasses: {fileID: 11400000, guid: ce04be53aeff3bf40ad230c7bea50b67, type: 2}
@@ -1302,6 +1306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 188798026899741644}
+  - {fileID: 4180189129587050680}
   m_Father: {fileID: 8137515841889582360}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1320,6 +1325,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 11400000, guid: cbb14bb4d489a954c8dc8c95fbec8a32, type: 2}
   transitionIsRunning: {fileID: 11400000, guid: cbc41918086ec944ca4eeb4d09ece19a, type: 2}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 7856912378818810375}
   doTransitionEvent: {fileID: 11400000, guid: e2f9d08c41d5dd44fb1b0261e88e9956, type: 2}
   isIdleState: {fileID: 0}
@@ -1486,6 +1492,88 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 70.5}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2961937891430556791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4180189129587050680}
+  - component: {fileID: 6687408203989215974}
+  m_Layer: 0
+  m_Name: ChessBoard_HoverIndicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4180189129587050680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961937891430556791}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0043, y: 0.0506, z: 0}
+  m_LocalScale: {x: 0.9315179, y: 0.91309273, z: 0.9199}
+  m_Children: []
+  m_Father: {fileID: 6430425439406399720}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6687408203989215974
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2961937891430556791}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 14
+  m_Sprite: {fileID: 21300000, guid: f561394126a8eb84b86a1ab277b0929b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 4.55, y: 1.95}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &3644563826022901908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,6 +1649,88 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4089713621904239939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8564258972514176621}
+  - component: {fileID: 5331085974592268731}
+  m_Layer: 0
+  m_Name: Automat_HoverIndicator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8564258972514176621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089713621904239939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0127, z: 0}
+  m_LocalScale: {x: 0.9535, y: 0.9597931, z: 0.9535}
+  m_Children: []
+  m_Father: {fileID: 2332200166694206739}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &5331085974592268731
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4089713621904239939}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 03d3b3884f58f1146bbea5f7725b1768, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.52, y: 4.04}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &4473886644890572707
 GameObject:
   m_ObjectHideFlags: 0
@@ -1854,6 +2024,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 7623001535132274023}
   onClickEvent: {fileID: 11400000, guid: b2fd70c994868ba408f2fe01a633a136, type: 2}
   canCollectGlasses: {fileID: 0}
@@ -1950,6 +2121,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 93915107291814553}
   onClickEvent: {fileID: 11400000, guid: cd57b8916214ce043ba6b2cc59b7f4ab, type: 2}
   canCollectGlasses: {fileID: 0}
@@ -2365,6 +2537,7 @@ MonoBehaviour:
   cursorData: {fileID: 11400000, guid: 02d69b983bc0fcb4e8e2d8bf928b8acf, type: 2}
   dialogueIsActive: {fileID: 0}
   transitionIsRunning: {fileID: 0}
+  glassesAreCollected: {fileID: 0}
   hoverEffect: {fileID: 1705697828844277010}
   onClickEvent: {fileID: 11400000, guid: bf69cccf90e635f4dbbda0ff112003f6, type: 2}
   titleButtons: {fileID: 2808982426678530797}

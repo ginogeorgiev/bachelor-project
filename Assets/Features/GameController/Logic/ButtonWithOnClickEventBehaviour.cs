@@ -9,11 +9,7 @@ namespace Features.GameController.Logic
     public class ButtonWithOnClickEventBehaviour : ButtonBehaviour
     {
         [SerializeField] private GameEvent_SO onClickEvent;
-        
-        [Header("Special for glasses")]
-        [SerializeField] private BoolVariable canCollectGlasses;
 
-        
         [Header("Dialogue related only use for dialogue buttons")]
         [SerializeField] private DialogueQuestionEvent dialogueQuestionEvent;
         [SerializeField] private DialogueElement dialogueElement;
@@ -26,7 +22,7 @@ namespace Features.GameController.Logic
             if (dialogueIsActive != null) if (dialogueIsActive.Get()) return;
             
             if (canCollectGlasses != null) if (!canCollectGlasses.Get()) return;
-            
+
             onClickEvent.Raise();
             
             if (dialogueElement != null && dialogueQuestionEvent != null) dialogueQuestionEvent.Raise(dialogueElement);
