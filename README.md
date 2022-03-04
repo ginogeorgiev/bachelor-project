@@ -6,7 +6,7 @@ It is a prototype for an educational game about software design pattern.
 
 ## Questions
 The following questions were asked after testers played the game:
-1. "Regardless of the prototype: As a student of computer science, would you consider would you consider playing an educational game about software design patterns?"
+1. "Regardless of the prototype: As a student of computer science, would you consider playing an educational game about software design patterns?"
 2. "Can you imagine a complete game of this kind, for students, in terms of a course on software design patterns?"
 3. "What did you think of the aesthetics and usability?"
 4. "Did you learn something new with the help of the game?"
