@@ -2,10 +2,10 @@
 ![Unity: 2020.2](https://img.shields.io/badge/unity-2020.3-yellow)
 
 This project was created during the work on a bachelor-thesis.
-It is a prototype for an education game about software design pattern.
+It is a prototype for an educational game about software design pattern.
 
 ## Questions
-The following questions where asked after testers played the game:
+The following questions were asked after testers played the game:
 1. "Regardless of the prototype: As a student of computer science, would you consider would you consider playing an educational game about software design patterns?"
 2. "Can you imagine a complete game of this kind, for students, in terms of a course on software design patterns?"
 3. "What did you think of the aesthetics and usability?"
